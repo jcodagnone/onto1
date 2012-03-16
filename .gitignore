@@ -1,0 +1,11 @@
+target
+.settings
+.classpath
+.project
+.checkstyle
+.springBeans
+*.log
+.DS_Store
+fetcher/logs
+fetcher/storage
+*.pyc

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:itba:it:ontologias:20121q:tutorial1" xmlns:ns1="urn:itba:it:ontologias:20121q:tutorial1">
+  <xs:element name="links">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:link"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="link">
+    <xs:complexType>
+      <xs:attribute name="href" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="map">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:entry"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="entry">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:key"/>
+        <xs:element ref="ns1:value"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="key" type="xs:string"/>
+  <xs:element name="value" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profile xmlns="urn:itba:it:ontologias:20121q:tutorial1">
+	<entry>
+		<key>Sexo</key>
+		<value>Mujer</value>
+	</entry>
+	<entry>
+		<key>Profesión</key>
+		<value>Translator</value>
+	</entry>
+	<entry>
+		<key>Ubicación</key>
+		<value>Toronto, Canadá</value>
+	</entry>
+	<entry>
+		<key>Introducción</key>
+		<value>Brasileira/argentina, tradutora de inglês, português e espanhol
+			de textos técnicos e literários, especializada em legendagem de
+			filmes. Professora de tradução e legendagem. Dedicada a todos os
+			assuntos relacionados a línguas e tradução. Já morou em São Paulo e
+			no Rio de Janeiro. Reside em Toronto desde 2007.</value>
+	</entry>
+</profile>

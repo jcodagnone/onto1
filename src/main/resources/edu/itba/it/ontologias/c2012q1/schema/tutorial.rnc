@@ -1,0 +1,21 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+namespace xlink = "http://www.w3.org/1999/xlink"
+    
+default namespace = "urn:itba:it:ontologias:20121q:tutorial1"
+
+start = links | map
+
+
+links = element links {
+	element link {
+	    	attribute href { xsd:anyURI}?
+	}*
+}
+
+map = element map {
+	element entry {
+		element key {xsd:string},
+		element value {xsd:string}
+	}*
+}
+
