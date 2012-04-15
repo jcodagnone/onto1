@@ -104,8 +104,8 @@
 						<argument>rnc</argument>
 						<argument>-O</argument>
 						<argument>xsd</argument>
-						<argument>src/main/resources/ar/edu/itba/it/ontologias/c20121q/schema/tutorial.rnc</argument>
-						<argument>src/main/resources/ar/edu/itba/it/ontologias/c20121q/schema/tutorial.xsd</argument>
+						<argument>src/main/resources/edu/itba/it/ontologias/c2012q1/schema/tutorial.rnc</argument>
+						<argument>src/main/resources/edu/itba/it/ontologias/c2012q1/schema/tutorial.xsd</argument>
 					</arguments>
 				</configuration>
 			</plugin>
