@@ -1,6 +1,3 @@
-/*
- * Copyright (c) 2012 Zauber S.A. -- All rights reserved
- */
 package edu.itba.it.ontologias.c2012q1.crawl;
 
 import java.io.IOException;
