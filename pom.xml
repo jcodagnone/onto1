@@ -13,6 +13,17 @@
 	<packaging>jar</packaging>
 
 	<dependencies>
+                <dependency>
+                    <groupId>bixo</groupId>
+                    <artifactId>bixo-core</artifactId>
+                    <version>0.7.0</version>
+                </dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-core</artifactId>
+			<version>0.20.205.0</version>
+			<scope>provided</scope>
+		</dependency>
 
 		<!-- slf4j -->
 		<dependency>
@@ -82,7 +93,7 @@
 				</executions>
 				<configuration>
 					<packageName>edu.itba.it.ontologias.c2012q1.schema</packageName>
-					<schemaDirectory>src/main/resources/ar/edu/itba/it/ontologias/c20121q/schema</schemaDirectory>
+					<schemaDirectory>src/main/resources/edu/itba/it/ontologias/c2012q1/schema</schemaDirectory>
 					<schemaFiles>tutorial.xsd</schemaFiles>
 				</configuration>
 			</plugin>
@@ -114,5 +125,12 @@
 	<properties>
 		<slf4j.version>1.6.1</slf4j.version>
 	</properties>
+        <repositories>
+            <repository>
+                    <id>Bixo</id>
+                    <name>Bixo GitHub repository</name>
+                    <url>http://bixo.github.com/repo/</url>
+            </repository>
+            </repositories>
 
 </project>
